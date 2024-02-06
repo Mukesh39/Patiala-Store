@@ -125,3 +125,7 @@ export const fetchProducts = createAsyncThunk('products/fetch' , async()=>{
      return data ;  
 
 })
+
+
+
+
