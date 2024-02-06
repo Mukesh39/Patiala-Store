@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![Screenshot 2024-02-04 at 12 45 56 PM](https://github.com/Mukesh39/Patiala-Store/assets/102470215/519536c0-932a-445b-ba46-8e404ee99601)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
