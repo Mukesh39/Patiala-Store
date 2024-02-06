@@ -1,5 +1,5 @@
 import React from 'react'; 
-import { useState , useEffect } from 'react';
+import {useEffect } from 'react';
 import {add} from '../store/cartSlice' ; 
 import {  useDispatch , useSelector } from 'react-redux';
 import {fetchProducts} from '../store/productSlice';
@@ -22,7 +22,7 @@ const Products = () => {
 
       dispatch(fetchProducts());
 
-   //  const fetchProducts = async () => {
+   // { const fetchProducts = async () => {
 
    //  const res =  await fetch("https://fakestoreapi.com/products") ;  
    //     const data = await res.json() ;  
@@ -30,9 +30,11 @@ const Products = () => {
    //     setProducts(data) ; 
    //  }
 
-   //  fetchProducts();
+   //  fetchProducts();  }
 
-    } ,[])
+
+
+    } ,[dispatch])
 
     const handleAdd =(product)=>{
 
